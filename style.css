@@ -1,0 +1,369 @@
+* {
+    font-family: "Space Grotesk", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header {
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    align-items: center;
+}
+
+.header p {}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 7px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a {
+    font-weight: 700;
+    color: black;
+}
+
+nav button {
+    background: transparent;
+    border-radius: 15px;
+    padding: 15px 15px;
+    cursor: pointer;
+    border: 1px solid;
+}
+
+.Frame1 {
+    display: flex;
+    align-items: stretch;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.Frame1 .text {
+    display: flex-column;
+    margin-left: 80px;
+    margin-right: 120px;
+    width: 420px;
+    justify-content: space-between;
+}
+
+.Frame1 .photo {
+    display: flex;
+    align-items: stretch;
+    height: 425px;
+}
+
+.Frame1 .text .up {
+    font-weight: 500;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+
+.Frame1 .text .mid {
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 400px;
+}
+
+.Frame1 .text .book {
+    margin-top: 15px;
+    background: black;
+    border-radius: 15px;
+    padding: 15px 15px;
+    cursor: pointer;
+    color: white;
+}
+
+.logobar {
+    margin-top: 50px;
+    display: flex;
+}
+
+.logobar img {
+    height: 150px;
+    margin-left: 90px;
+}
+
+.services {
+    margin-top: 70px;
+    display: flex;
+}
+
+.services .main {
+    margin-left: 80px;
+    padding: 0px 5px;
+    font-weight: 500;
+    font-size: 31px;
+    background: #B9FF66;
+    border: none;
+    border-radius: 8%;
+}
+
+.services .text {
+    margin-left: 40px;
+}
+
+.cards {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.right_cards {
+    margin-left: 50px;
+}
+
+.cardbox {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    padding: 10px;
+    width: 500px;
+    box-shadow: 10px 4px 29px rgba(0, 0, 0, 0.1);
+    height: 200px;
+    border-bottom:4px solid #333;
+}
+
+.cardtext {
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-left;
+    height: 100%;
+    width: 60%;
+}
+
+.cardtext .btn {
+    display: flex;
+    flex-direction:column;
+    margin-top: 20px;
+    margin-left:0px;
+    flex-direction: column;
+}
+
+
+.cardtext .btn .up {
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 8%;
+    width: fit-content;
+    padding: 0px 5px;
+}
+
+.cardtext .btn .down {
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    border-radius: 8%;
+    width: fit-content;
+    padding: 0px 5px;
+}
+
+.cardtext .photo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.cardtext .photo a {
+    margin-left: 15px;
+    color: black;
+}
+
+.Proposal{
+    display:flex;
+    margin-bottom:80px;
+    margin-left:70px;
+    margin-right:40px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    background: #F3F3F3;
+    position: relative;
+    height:300px;
+}
+.Proposal .text{
+    margin-left:70px;
+    position: relative;
+}     
+.Proposal .up{
+ margin-top:40px;
+ font-size:20px;
+ font-weight:bold;
+}  
+.Proposal .mid{
+ margin-top:20px;
+ margin-bottom:30px;
+}
+.Proposal .btn{
+ margin-bottom:30px;
+ background: black;
+ border-radius: 15px;
+ padding: 15px 15px;
+ cursor: pointer;
+ color: white;
+}   
+.Proposal img{
+ margin-left:630px;
+ position:absolute;
+ z-index:2;
+ top:-10px;
+ height:325px;
+ 
+}
+
+.Study{
+ display:flex;
+ margin-top:30px;
+ margin-bottom:50px;
+ margin-right:60px;
+ margin-left:70px;
+ background:black;
+ color:white;
+ border: 1px solid #ccc;
+ border-radius: 30px;
+ height:300px;
+ align-items:center;
+}
+
+.Study .Study1{
+ margin-left:70px;
+  margin-top:80px;
+  font-weight:400 px;
+  font-size:15px;
+  height:200px;
+}
+
+.Study .link{
+  margin-top:20px;
+  font-weight:400 px;
+  font-size:15px;
+} 
+
+.Study a{
+ color: #B9FF66;
+}
+.Study .line{
+ margin-top:20px;
+ margin-left:30px;
+ width:2px;
+ height:150px;
+ background:white;
+}
+
+.team{
+ margin-top:50px;
+ margin-left:40px;
+}
+.team .up{
+display:flex;
+}
+.team .down{
+display:flex;
+}
+
+.team .member{
+
+    margin-left: 60px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    padding: 10px;
+    width: 300px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    border-bottom:4px solid #333;
+    height: 250px;
+}
+
+.team .info{
+    display: flex;
+    width: 100%;
+    margin-bottom:10px;
+    position: relative;
+}
+.team .desc{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:16px;
+    margin-left:22px;
+}
+.team .info .data{
+    margin-top:30px;
+    margin-left:15px;
+    position: relative;
+}
+.team .name{
+    font-weight:bold;
+}        
+.team .info .photo{
+    width:60px;
+    height:60px;
+    margin-left:20px;
+    margin-bottom:10px;
+    margin-top:10px;
+    padding:0px;
+    position: relative;
+} 
+.team .info .icon{
+    width:22px;
+    height:22px;
+    margin-right:20px;
+    margin-left:250px;
+    margin-bottom:20px;
+    margin-top:10px;
+    padding:0px;
+    position: absolute;
+} 
+
+hr{
+border-top:2px solid black;
+align-items:center;
+width:90%;
+margin-left:25px;
+}
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    * {
+    outline: 1px solid red;
+    }
+    .Frame1 {
+        flex-direction: column;
+    }
+    nav{
+    display:none;
+    }
+    .logobar img {
+    height:90px;
+    margin-left: 30px;
+    }
+    .Proposal img{
+    display:none;
+    }
+    .services{
+    margin-top:50px;
+    margin-left:30px;
+    flex-direction:column;
+    }
+}
