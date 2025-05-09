@@ -1,0 +1,31 @@
+.logobar .hub_logo {
+  position:absolute;
+  top:0%;
+  left:650px;
+  width:37px;
+  pointer-events: none; 
+}
+.logobar .amazon{
+  margin-left:100px;         
+}
+.logobar .dribble{
+   margin-left:100px;
+}
+.logobar .hubspot{
+   margin-left:100px;
+   width:150px;
+}
+
+
+.logobar .netflix{
+ margin-left:100px;
+}
+.logobar .zoom{
+   margin-left:100px;
+}
+
+
+
+
+//
+<img class="Logotypes" src="media/Logotypes.png" alt="Logotypes">
